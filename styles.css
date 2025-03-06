@@ -3,8 +3,10 @@
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: blanchedalmond;
-    color: black;
+    background-image: url(kuvat/taustakuva.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: darkslategray;
 }   
 
 #nav  {
