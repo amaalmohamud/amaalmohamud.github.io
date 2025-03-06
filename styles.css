@@ -1,10 +1,10 @@
 /*styles.css*/
 body  {
-    margin: 0;
+
     background-image: url("kuvat/taustakuvat.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
+    margin: 0;
     
 }
