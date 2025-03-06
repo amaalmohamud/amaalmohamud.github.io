@@ -12,15 +12,20 @@
     padding: 15px;
     text-align: center;
 }
-    
+ /*päävalikko*/   
 #nav a {
-    color: white;
+    color: blanchedalmond;
     background: rgba(87, 54, 4);
     text-decoration: none;
     margin: 0 15px;
     font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    border: 2px solid rgba(87, 54, 4);
 }
 
 #nav a:hover {
-    
+    color: rgba(87, 54, 4);
+    background-color: blanchedalmond;
 }
+
