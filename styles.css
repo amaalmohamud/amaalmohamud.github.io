@@ -1,5 +1,12 @@
 /*styles.css*/
 body  {
-    color:darkslategray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    background-image: url("kuvat/taustakuva.jpg");
+    background-size: cover;
+    background-position: center;
     background-color: #b0876a ;
+    color:darkslategray;
+    
 }
