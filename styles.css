@@ -1,20 +1,23 @@
-/*styles.css*/
-body  {
-    margin: 0;
-    padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-image: url("kuvat/taustakuva.jpg");
+/* Yleiset tyylit */
+
+#etusivu {
+
+
+    color: darkslategray;
+    background-image: url("kuvat/taustakuva1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    color: darkslategray;
-}   
+    font-family: 'Verdana', 'Geneva', 'Tahoma', sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
 
-nav  {
+nav {
     position: absolute;
-    top: 15px; 
-    right: 20px; 
-    background-color: #c3976b; 
+    top: 15px;
+    right: 20px;
+    background-color: #c3976b;
     padding: 15px;
     text-align: center;
 }
@@ -30,27 +33,25 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/*otsikkoalue*/
+/* Otsikkoalue */
 header {
     text-align: center;
     padding: 50px 20px;
-    background-color: #e3c6a8;
 }
 
 h1 {
     color: #5a3e2b;
 }
 
-#slogan{
-    color: black; 
+#slogan {
+    color: black;
     font-size: 30px;
-    font-style: italic;
-    padding: 20px;
+    padding: 100px 50px;
     text-align: center;
     position: relative;
 }
 
-/* etusivun Grid-rakenne */
+/* Grid-rakenne */
 .grid-container {
     display: grid;
     grid-template-columns: 1fr;
@@ -58,17 +59,19 @@ h1 {
     padding: 20px;
 }
 
-.grid-teksti{
+.grid-teksti {
     padding: 20px;
     background-color: #f4e8da;
+    border-radius: 10px;
 }
 
-.esittely{
+.esittely {
     font-style: normal;
     font-size: 20px;
     color: black;
     padding-top: 20px;
 }
+
 
 /* Kutsupainikkeet */
 .toimintakehote {
@@ -107,8 +110,3 @@ footer a:hover {
     align-items: center;
     flex-wrap: wrap;
 }
-
-
-
-
-
