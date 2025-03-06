@@ -1,5 +1,5 @@
 /* Yleiset tyylit */
-#body {
+body {
     color: darkslategray;
     background-image: url(kuvat/taustakuva1.jpg);
     background-size: cover;
