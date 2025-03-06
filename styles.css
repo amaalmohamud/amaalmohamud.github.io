@@ -29,3 +29,27 @@
     background-color: blanchedalmond;
 }
 
+#valittu {
+    color: rgba(87, 54, 4);
+    background-color: blanchedalmond;
+}
+
+/*otsikkoalue*/
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #e3c6a8;
+}
+
+h1 {
+    color: #5a3e2b;
+}
+
+/*sisältö*/
+.sisalto{
+    text-align: center;
+    padding:20px ;
+}
+
+
+
