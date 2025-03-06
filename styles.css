@@ -1,7 +1,5 @@
 /*styles.css*/
 body  {
-   
-#etusivu{
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -10,9 +8,9 @@ body  {
     background-repeat: no-repeat;
     color: darkslategray;
 }   
-}
 
-#nav  {
+
+nav  {
     position: absolute;
     top: 15px; 
     right: 20px; 
@@ -21,14 +19,14 @@ body  {
     text-align: center;
 }
 
-#nav a {
+nav a {
     color: white;
     text-decoration: none;
     margin: 0 15px;
     font-size: 18px;
 }
 
-#nav a:hover {
+nav a:hover {
     text-decoration: underline;
 }
 
