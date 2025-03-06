@@ -15,7 +15,12 @@
     
 #nav a {
     color: white;
+    background: rgba(87, 54, 4);
     text-decoration: none;
     margin: 0 15px;
     font-size: 18px;
+}
+
+#nav a:hover {
+    
 }
