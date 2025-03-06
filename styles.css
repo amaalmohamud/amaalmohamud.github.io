@@ -1,5 +1,5 @@
 /*styles.css*/
-body  {
+#body  {
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -8,12 +8,17 @@ body  {
     background-color: blanchedalmond;
 }   
     
-index.html {
-    
+#etusivu {
     background-image: url("kuvat/taustakuva.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    text-align: center;
+    padding: 200px 30px;
+    color:black;
 }
-    
+  
+#slogan {
+    font-size: large;
 
+}
