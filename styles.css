@@ -20,7 +20,7 @@
     margin: 0 15px;
     font-size: 18px;
     font-family: signika negative, sans-serif;
-    display: inline-flex;
+    display: inline-block;
     border: 2px solid rgba(87, 54, 4);
 }
 
@@ -56,6 +56,7 @@ h1 {
     font-size: 20px;
 }
 
-/*grid rakenne*/
+/*etusivun grid rakenne*/
+
 
 
