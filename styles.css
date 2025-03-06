@@ -14,13 +14,13 @@
 }
  /*päävalikko*/   
 #nav a {
-    color: blanchedalmond;
+    color: rgb(244, 216, 174);
     background: rgba(87, 54, 4);
     text-decoration: none;
     margin: 0 15px;
     font-size: 18px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    display: inline-block;
+    font-family: signika negative, sans-serif;
+    display: inline-flex;
     border: 2px solid rgba(87, 54, 4);
 }
 
@@ -51,5 +51,11 @@ h1 {
     padding:20px ;
 }
 
+.esittely {
+    font-style: italic;
+    font-size: 20px;
+}
+
+/*grid rakenne*/
 
 
