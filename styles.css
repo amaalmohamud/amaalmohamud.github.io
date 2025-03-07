@@ -28,6 +28,11 @@ nav a:hover {
     text-decoration: underline;
 }
 
+#valittu{
+    color:#5a3e2b ;
+    background-color: #c3976b;
+}
+
 /* Otsikkoalue */
 header {
     text-align: center;
@@ -105,4 +110,12 @@ footer a:hover {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+}
+/*mobiilikoko*/
+@media(max-width:600px){
+    #etusivu{
+        background-image: url(kuvat/taustakuva1.jpg);
+        background-size: cover;
+        height: 400px;
+    }
 }
