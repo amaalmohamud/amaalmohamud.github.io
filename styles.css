@@ -64,6 +64,12 @@ h1 {
     background-color: #f4e8da;
     border-radius: 10px;
 }
+.grid-teksti1, .grid-teksti2 {
+    background-color: #f4e1d2; /* Pehmeä beige, vaihda halutessasi */
+    color: #333; /* Tumma teksti hyvän kontrastin takaamiseksi */
+    padding: 20px;
+    border-radius: 10px;
+}
 
 .esittely {
     font-style: normal;
@@ -111,11 +117,4 @@ footer a:hover {
     align-items: center;
     flex-wrap: wrap;
 }
-/*mobiilikoko*/
-@media(max-width:600px){
-    #etusivu{
-        background-image: url(kuvat/taustakuva1.jpg);
-        background-size: cover;
-        height: 400px;
-    }
-}
+
