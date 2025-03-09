@@ -8,7 +8,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
 nav {
     position: absolute;
     top: 15px;
@@ -65,8 +64,8 @@ h1 {
     border-radius: 10px;
 }
 .grid-teksti1, .grid-teksti2 {
-    background-color: #f4e1d2; /* Pehmeä beige, vaihda halutessasi */
-    color: #333; /* Tumma teksti hyvän kontrastin takaamiseksi */
+    background-color: #f4e1d2; 
+    color: #333; 
     padding: 20px;
     border-radius: 10px;
 }
