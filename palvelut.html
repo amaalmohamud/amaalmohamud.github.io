@@ -1,18 +1,107 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Lux Yoga - Palvelut</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-<body>
-    <div class="navbar">
-        <a href="index.html">Etusivu</a>
-        <a href="palvelut.html">Palvelut</a>
-        <a href="yhteystiedot.html">Yhteystiedot</a>
-    </div>
-    <div class="container">
-        <h1>Palvelut</h1>
-        <p>Tarjoamme yksityis- ja ryhmätunteja, sekä hyvinvointipaketteja, jotka on suunniteltu juuri sinun tarpeisiisi.</p>
-    </div>
-</body>
-</html>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Yoga Lux - Palvelut</title>
+   <style>
+       body {
+           background-color: #e8dfd0;
+           color: #5a5148;
+           font-family: 'Playfair Display', serif;
+           margin: 0;
+           padding: 0;
+       }
+       header {
+           background: #d4c6b6;
+           color: #5a5148;
+           padding: 20px 0;
+           text-align: center;
+       }
+       header nav {
+           text-align: center;
+           margin-top: 10px;
+       }
+       header nav a {
+           text-decoration: none;
+           color: #5a5148;
+           margin: 0 15px;
+           font-size: 18px;
+       }
+       header nav a:hover {
+           color: #a8907c;
+       }
+       .container {
+           width: 80%;
+           margin: auto;
+           padding: 40px 0;
+           text-align: center;
+       }
+       .card {
+           background: #f7f3ee;
+           padding: 25px;
+           margin: 20px auto;
+           border-radius: 15px;
+           box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+           max-width: 500px;
+       }
+       .button {
+           display: inline-block;
+           background-color: #a8907c;
+           color: white;
+           padding: 15px 30px;
+           margin-top: 20px;
+           text-decoration: none;
+           border-radius: 10px;
+           font-size: 18px;
+       }
+       .button:hover {
+           background-color: #8c7a66;
+       }
+       footer {
+           text-align: center;
+           padding: 20px;
+           background: #d4c6b6;
+       }
+   </style>
+
+
+   <!-- Header and Navigation -->
+   <header>
+       <nav>
+           <a href="index.html">Etusivu</a>
+           <a href="yhteystiedot.html">Yhteystiedot</a>
+       </nav>
+       <h1>LuxYoga - Palvelut</h1>
+       <p>Valitse itsellesi sopiva joogatunti</p>
+   </header>
+
+
+   <!-- Main content section -->
+   <div class="container">
+       <section id="palvelut">
+           <div class="card">
+               <h3>Hot Jooga</h3>
+               <p>Joogaharjoitus, joka tehdään lämpimässä huoneessa, noin 35-40 asteessa. Lämpö auttaa lisäämään joustavuutta, parantaa verenkiertoa ja edistää kehon detoksifikaatiota.</p>
+           </div>
+           <div class="card">
+               <h3>Vinyasa Flow</h3>
+               <p>Dynaaminen ja virtaava joogatyyli, jossa liike yhdistyy hengitykseen.</p>
+           </div>
+           <div class="card">
+               <h3>Prenataali Jooga</h3>
+               <p>Erityisesti odottaville äideille suunniteltu jooga, joka tukee raskautta ja valmistaa kehoa synnytykseen.</p>
+           </div>
+           <div class="card">
+               <h3>One-on-One Joogatunti </h3>
+               <p>Henkilökohtainen joogatunti, jossa opettaja ohjaa sinua yksilöllisesti omien tarpeidesi ja tavoitteidesi mukaan.</p>
+           </div>
+           <a href="#" class="button">Varaa nyt</a>
+       </section>
+   </div>
+
+
+   <!-- Footer -->
+   <footer>
+       <p>Email: info@luxyoga.fi | Puhelin: 040 444 4444</p>
+   </footer>
