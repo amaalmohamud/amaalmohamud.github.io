@@ -28,7 +28,7 @@ nav {
 /* Päävalikko */
 nav a {
     background: rgba(212, 198, 182, 0.9); 
-    font-family: 'Georgia', serif; 
+    font-family: Georgia, serif; 
     color: #4A3F35;
     text-decoration: none;
     display: inline-block;
