@@ -1,45 +1,20 @@
-/* Yleiset tyylit */
+
+/*Yleiset tyylit*/
+
 body {
-    color: darkslategray;
-    background-image: url(kuvat/taustakuva1.jpg);
-    background-size: cover;
-    height: 900px;
     font-family: 'Verdana', 'Geneva', 'Tahoma', sans-serif;
     margin: 0;
     padding: 0;
 }
-nav {
-    position: absolute;
-    top: 15px;
-    right: 20px;
-    background-color: #c3976b;
-    padding: 15px;
-    text-align: center;
-}
-nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-    font-size: 18px;
-}
 
-nav a:hover {
-    text-decoration: underline;
-}
 
-#valittu{
-    color:#5a3e2b ;
-    background-color: #c3976b;
-}
+/*Etusivun tyylit*/
 
-/* Otsikkoalue */
-header {
-    text-align: center;
-    padding: 50px 20px;
-}
-
-h1 {
-    color: #5a3e2b;
+.etusivu-body {
+    color: darkslategray;
+    background-image: url(kuvat/taustakuva1.jpg);
+    background-size: cover;
+    height: 900px;
 }
 
 #slogan {
@@ -69,16 +44,6 @@ h1 {
     padding: 20px;
     border-radius: 10px;
 }
-
-.esittely {
-    font-style: normal;
-    font-size: 20px;
-    color: black;
-    padding-top: 20px;
-
-}
-
-
 /* Kutsupainikkeet */
 .toimintakehote {
     display: inline-block;
@@ -92,6 +57,93 @@ h1 {
 
 .toimintakehote:hover {
     background-color: #b8865c;
+}
+
+/*Palvelu-sivun tyylit*/
+    
+.palvelusivu-body{
+    background-color: #e8dfd0;
+    color: #5a5148;
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #d4c6b6;
+    color: #5a5148;
+    padding: 20px 0;
+    text-align: center;
+}
+header nav {
+    text-align: center;
+    margin-top: 10px;
+}
+header nav a {
+    text-decoration: none;
+    color: #5a5148;
+    margin: 0 15px;
+    font-size: 18px;
+}
+header nav a:hover {
+    color: #a8907c;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 40px 0;
+    text-align: center;
+}
+.card {
+    background: #f7f3ee;
+    padding: 25px;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+}
+.button {
+    display: inline-block;
+    background-color: #a8907c;
+    color: white;
+    padding: 15px 30px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.button:hover {
+    background-color: #8c7a66;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #d4c6b6;
+}
+
+/*Navigaatio ja footer*/
+nav {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    background-color: #c3976b;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+#valittu {
+    color: #5a3e2b;
+    background-color: #c3976b;
 }
 
 footer {
@@ -116,4 +168,3 @@ footer a:hover {
     align-items: center;
     flex-wrap: wrap;
 }
-
