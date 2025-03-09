@@ -5,134 +5,24 @@ body {
     margin: 0;
     padding: 0;
 }
-
 /* --- ETUSIVUN TYYLIT --- */
-.etusivu-body {
+.etusivu-body{
     color: darkslategray;
+    background-color: #f8f1e7; 
     background-image: url(kuvat/taustakuva1.jpg);
-    background-size: cover;
     background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
-    min-height: 100vh; /* Varmistaa, että kuva kattaa koko näkymän */
+    height: 900px;
+    font-family: 'Verdana', 'Geneva', 'Tahoma', sans-serif;
+    margin: 0;
+    padding: 0;
 }
-
-#slogan {
-    color: black;
-    font-size: 30px;
-    padding: 100px 50px;
-    text-align: center;
-    position: relative;
-    background: none; /* Poistaa mahdollisen taustavärin */
-}
-
-/* Grid-rakenne */
-.grid-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
-    padding: 20px;
-}
-
-.grid-teksti {
-    padding: 20px;
-    background-color: #f4e8da;
-    border-radius: 10px;
-}
-.grid-teksti1, .grid-teksti2 {
-    background-color: #f4e1d2; 
-    color: #333; 
-    padding: 20px;
-    border-radius: 10px;
-}
-
-/* Kutsupainikkeet */
-.toimintakehote {
-    display: inline-block;
-    background-color: #d4a373;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 20px;
-    font-size: 18px;
-    z-index: 10; /* Nostetaan kerrosjärjestystä */
-    position: relative;
-}
-
-.toimintakehote:hover {
-    background-color: #b8865c;
-}
-
-/* --- PALVELU-SIVUN TYYLIT --- */
-.palvelusivu-body {
-    background-color: #e8dfd0;
-    color: #5a5148;
-    font-family: 'Playfair Display', serif;
-}
-
-header {
-    background: #d4c6b6;
-    color: #5a5148;
-    padding: 20px 0;
-    text-align: center;
-}
-
-header nav {
-    text-align: center;
-    margin-top: 10px;
-}
-
-header nav a {
-    text-decoration: none;
-    color: #5a5148;
-    margin: 0 15px;
-    font-size: 18px;
-}
-
-header nav a:hover {
-    color: #a8907c;
-}
-
-.palvelut-container {
-    width: 80%;
-    margin: auto;
-    padding: 40px 0;
-    text-align: center;
-}
-
-.palvelut-card {
-    background: #f7f3ee;
-    padding: 25px;
-    margin: 20px auto;
-    border-radius: 15px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    max-width: 500px;
-}
-
-.palvelut-button {
-    display: inline-block;
-    background-color: #a8907c;
-    color: white;
-    padding: 15px 30px;
-    margin-top: 20px;
-    text-decoration: none;
-    border-radius: 10px;
-    font-size: 18px;
-}
-
-.palvelut-button:hover {
-    background-color: #8c7a66;
-}
-
-/* --- NAVIGAATIO & FOOTER --- */
+    /* Navigaatio */
 nav {
-    position: absolute;
-    top: 15px;
-    right: 20px;
-    background-color: #c3976b;
+    background-color: #d4a373; 
     padding: 15px;
     text-align: center;
-    z-index: 100; /* Nostetaan navigaation kerrosjärjestystä */
 }
 
 nav a {
@@ -146,11 +36,61 @@ nav a:hover {
     text-decoration: underline;
 }
 
-#valittu {
-    color: #5a3e2b;
-    background-color: #c3976b;
+/* Otsikkoalue */
+header {
+    text-align: center;
+    padding: 50px 20px;
+}
+#slogan {
+    color: black;
+    font-size: 30px;
+    padding: 100px 50px;
+    text-align: center;
+    position: relative;
+    background: none; 
 }
 
+/* Sisältöalue */
+.sisalto {
+    text-align: center;
+    padding: 20px;
+}
+
+.esittely {
+    font-style: italic;
+    font-size: 20px;
+}
+
+/* Grid-rakenne */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-teksti1,.grid-teksti2 {
+    padding: 20px;
+    background-color: #f4e8da;
+    border-radius: 10px;
+}
+
+/* Kutsupainikkeet */
+.toimintakehote {
+    display: inline-block;
+    background-color: #d4a373;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.toimintakehote:hover {
+    background-color: #b8865c;
+}
+
+/* Footer */
 footer {
     text-align: center;
     background-color: #d4a373;
