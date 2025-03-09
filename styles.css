@@ -14,7 +14,10 @@ body {
     color: darkslategray;
     background-image: url(kuvat/taustakuva1.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     height: 900px;
+    margin: 0;
+    padding: 0;
 }
 
 #slogan {
@@ -23,6 +26,7 @@ body {
     padding: 100px 50px;
     text-align: center;
     position: relative;
+    background: none;
 }
 
 /* Grid-rakenne */
@@ -53,10 +57,6 @@ body {
     text-decoration: none;
     border-radius: 5px;
     margin-top: 20px;
-}
-
-.toimintakehote:hover {
-    background-color: #b8865c;
 }
 
 /*Palvelu-sivun tyylit*/
