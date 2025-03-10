@@ -26,6 +26,9 @@ body {
         background-size: cover;
         height: 400px;
     }
+    h2{
+        font-size: 20px; 
+    }
     nav a{
         font-size: 15px;
         width: 100px;
@@ -44,6 +47,9 @@ body {
         background-image: url(kuvat/taustakuva1.jpg);
         background-size: cover;
         height:600px;
+    }
+    h2{
+        font-size: 25px; 
     }
     nav a{
         font-size: 15px;
@@ -67,6 +73,9 @@ body {
     background-size: cover;
     height: 950px;
  }  
+ h2{
+    font-size: 30px; 
+}
  nav a{
     font-size: 20px;
     width: 130px;
@@ -128,7 +137,9 @@ header {
     text-align: center;
     padding: 20px;
 }
-
+h2{
+    font-size: 20px; 
+}
 .esittely {
     font-style: italic;
     font-size: 20px;
@@ -207,6 +218,13 @@ footer a:hover {
         font-size: 30px;
         padding: 20px;
     }
+    nav a { 
+        font-size: 15px;
+        width: 100px;
+        height: 20px;
+        padding: 7px;
+        margin:3px 5px;
+    }
 .card{
     flex-direction: column;
     text-align: center;
@@ -226,6 +244,13 @@ footer a:hover {
         font-size: 36px;
         padding: 40px;
     }
+    nav a { 
+        font-size: 15px;
+        width: 100px;
+        height: 20px;
+        padding: 7px;
+        margin:3px 5px;
+    }
     .card img{
         margin-bottom: 20px;
         margin-right: 0;
@@ -237,10 +262,6 @@ footer a:hover {
     background-color:#e6c3a6;
     padding: 50px;
  }  
- .palvelut-header{
-    font-size: 50px;
-    padding: 50px;
- }
 .palvelut-header {
     text-align: center;
     padding: 50px 20px;
@@ -253,6 +274,11 @@ footer a:hover {
 header nav {
     text-align: center;
     margin-top: 10px;
+    font-size: 20px;
+    width: 130px;
+    height: 25px;
+    padding: 10px;
+    margin:5px 20px
 }
 header nav a {
     text-decoration: none;
@@ -336,8 +362,11 @@ footer {
     }
 
     header nav a {
-        font-size: 14px;
-        margin: 0 10px;
+    font-size: 15px;
+    width: 100px;
+    height: 20px;
+    padding: 7px;
+    margin:3px 5px;
     }
 
     p.call-to-action {
@@ -364,7 +393,11 @@ footer {
     }
 
     header nav a {
-        font-size: 16px;
+        font-size: 15px;
+        width: 100px;
+        height: 20px;
+        padding: 7px;
+        margin:3px 5px;
     }
 }
 /*suurinäyttö*/
@@ -378,7 +411,11 @@ footer {
     }
 
     header nav a {
-        font-size: 18px;
+       font-size: 20px;
+        width: 130px;
+        height: 25px;
+        padding: 10px;
+        margin:5px 20px;
     }
 }
 .yhteystiedot-header {
