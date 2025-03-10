@@ -4,54 +4,59 @@ body {
     margin: 0;
     padding: 0;
 }
+
 /*Etusivun tyylit */
-.etusivu-body{
+.etusivu-body {
     color: black;
-    background-color: #f8f1e7; 
+    background-color: rgba(0, 0, 0, 0.4);
     background-image: url(kuvat/taustakuva1.jpg);
+    background-blend-mode: darken;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 900px;
-    font-family: 'Verdana', 'Geneva', 'Tahoma', sans-serif;
-    margin: 0;
-    padding: 0;
 }
+
 /* Etusivun näyttökoot */
 /*mobiilikoko*/
-@media(max-width:600px){
-    .etusivu-body{
+@media(max-width:600px) {
+    .etusivu-body {
         background-image: url(kuvat/taustakuva1.jpg);
         background-size: cover;
         height: 400px;
     }
-    nav a{
+
+    nav a {
         font-size: 15px;
         width: 100px;
         height: 20px;
         padding: 7px;
         margin: 3px 5px;
     }
-    .slogan{
+
+    .slogan {
         font-size: 30px;
         padding: 20px;
     }
 }
+
 /*tablettikoko*/
-@media screen and(min-width: 600px){
-    .etusivu-body{
+@media screen and(min-width: 600px) {
+    .etusivu-body {
         background-image: url(kuvat/taustakuva1.jpg);
         background-size: cover;
-        height:600px;
+        height: 600px;
     }
-    nav a{
+
+    nav a {
         font-size: 15px;
         width: 100px;
         height: 20px;
         padding: 7px;
         margin: 3px 5px;
     }
-    .slogan{
+
+    .slogan {
         font-size: 40px;
         padding-top: 100px;
         padding-bottom: 20px;
@@ -59,62 +64,67 @@ body {
         padding-right: 50px;
     }
 }
+
 /*suuri näyttö*/
-@media screen and (min-width:1200px){
- .etusivu-body{
-    background-image: url(kuvat/taustakuva1.jpg);
-    background-size: cover;
-    height: 950px;
- }  
- nav a{
-    font-size: 20px;
-    width: 130px;
-    height: 25px;
-     padding: 10px;
-     margin: 5px 20px;
- } 
- .slogan{
-    font-size: 65px;
-    padding-top: 150px;
-    padding-bottom: 20px;
-    padding-left: 200px;
-    padding-right: 200px;
- }
+@media screen and (min-width:1200px) {
+    .etusivu-body {
+        background-image: url(kuvat/taustakuva1.jpg);
+        background-size: cover;
+        height: 950px;
+    }
+
+    nav a {
+        font-size: 20px;
+        width: 130px;
+        height: 25px;
+        padding: 10px;
+        margin: 5px 20px;
+    }
+
+    .slogan {
+        font-size: 65px;
+        padding-top: 150px;
+        padding-bottom: 20px;
+        padding-left: 200px;
+        padding-right: 200px;
+    }
 }
 
-    
+
 /* päävalikko*/
 nav {
-    background-color: transparent; 
+    background-color: transparent;
     padding: 15px;
     text-align: center;
 }
 
 /* Päävalikko */
 nav a {
-    background: rgba(212, 198, 182, 0.9); 
-    font-family: Georgia, serif; 
+    background: rgba(212, 198, 182, 0.9);
+    font-family: Georgia, serif;
     color: #4A3F35;
     text-decoration: none;
     display: inline-block;
-    padding: 10px 15px; 
-    border: 2px solid #4A3F35; 
-    border-radius: 5px; 
+    padding: 10px 15px;
+    border: 2px solid #4A3F35;
+    border-radius: 5px;
     transition: all 0.3s ease-in-out;
 }
+
 nav a.active {
-    background-color: #4A3F35; 
-    color: #D4C6B6; 
+    background-color: #4A3F35;
+    color: #D4C6B6;
     font-weight: bold;
 }
+
 nav a:hover {
-    color: #D4C6B6; 
-    background-color: #4A3F35; 
+    color: #D4C6B6;
+    background-color: #4A3F35;
 }
 
 #valittu {
-    color: #4A3F35; 
-    background-color: rgba(244, 230, 215, 0.8); 
+    color: #4A3F35;
+    background-color: rgba(244, 230, 215, 0.8);
 }
 
 /* Otsikkoalue */
@@ -122,13 +132,14 @@ header {
     text-align: center;
     padding: 50px 20px;
 }
+
 #slogan {
     color: black;
     font-size: 30px;
     padding: 100px 50px;
     text-align: center;
     position: relative;
-    background: none; 
+    background: none;
 }
 
 /* Sisältöalue */
@@ -150,7 +161,8 @@ header {
     padding: 20px;
 }
 
-.grid-teksti1,.grid-teksti2 {
+.grid-teksti1,
+.grid-teksti2 {
     padding: 20px;
     background-color: #f4e8da;
     border-radius: 10px;
@@ -197,85 +209,100 @@ footer a:hover {
 
 /*palvelu-sivun tyylit*/
 .palvelusivu-body {
-    background-color: #e6c3a6;
+    background-color: #dfcbb8;
     color: #5a5148;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     height: 900px;
     margin: 0;
     padding: 0;
 }
+
 /* Palvelusivun näyttökoot */
 /*mobiilikoko*/
-@media (max-width: 600px){
-.palvelusivu-body{
-    background-color: #e6c3a6;
-    padding: 20px;
+@media (max-width: 600px) {
+    .palvelusivu-body {
+        background-color: #e6c3a6;
+        padding: 20px;
     }
 
- .palvelut-header{
+    .palvelut-header {
         font-size: 30px;
         padding: 20px;
     }
-.card{
-    flex-direction: column;
-    text-align: center;
+
+    .card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .card img {
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
 }
-.card img{
-    margin-bottom: 10px;
-    margin-right: 0;
-}
-}
+
 /*tablettikoko*/
 @media screen and (min-width: 600px) {
-    .palvelusivu-body{
+    .palvelusivu-body {
         background-color: #e6c3a6;
         padding: 30px;
     }
-    .palvelut-header{
+
+    .palvelut-header {
         font-size: 36px;
         padding: 40px;
     }
-.container{
-    width: 90%;
+
+    .container {
+        width: 90%;
+    }
 }
-}
+
 /*suuri näyttö*/
-@media screen and (min-width:1200px){
- .palvelusivu-body{
-    background-color:#e6c3a6;
-    padding: 50px;
- }  
- .palvelut-header{
-    font-size: 50px;
-    padding: 50px;
- }
-.palvelut-header {
-    text-align: center;
-    padding: 50px 20px;
+@media screen and (min-width:1200px) {
+    .palvelusivu-body {
+        background-color: #e6c3a6;
+        padding: 50px;
+    }
+
+    .palvelut-header {
+        font-size: 50px;
+        padding: 50px;
+    }
+
+    .palvelut-header {
+        text-align: center;
+        padding: 50px 20px;
+    }
+
+    .container {
+        width: 80%;
+    }
 }
-.container{
-    width: 80%;
-}
-}
+
 header nav {
     text-align: center;
     margin-top: 10px;
 }
+
 header nav a {
     text-decoration: none;
     color: #5a5148;
     margin: 0 15px;
     font-size: 18px;
 }
+
 header nav a:hover {
     color: #a8907c;
 }
+
 .container {
     width: 80%;
     margin: auto;
     padding: 40px 0;
     text-align: center;
 }
+
 .card {
     display: flex;
     flex-direction: row-reverse;
@@ -288,24 +315,28 @@ header nav a:hover {
     max-width: 600px;
     text-align: left;
 }
-.card-title{
+
+.card-title {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 10px;
     text-align: center;
 }
-.card img{
+
+.card img {
     width: 120px;
     height: 120px;
     border-radius: 10px;
     margin-right: 20px;
 }
-.card.card-text{
+
+.card.card-text {
     flex: 1;
 }
+
 .button {
     display: inline-block;
-    background-color:#a8907c;
+    background-color: #a8907c;
     color: white;
     padding: 10px 20px;
     margin-top: 10px;
@@ -313,34 +344,151 @@ header nav a:hover {
     border-radius: 10px;
     font-size: 16px;
 }
+
 .button:hover {
     background-color: #8c7a66;
 }
+
 footer {
     text-align: center;
     padding: 20px;
     background: #d4c6b6;
 }
+
 /*yhteystiedot-sivun tyyli*/
-.yhteystiedot-body{
-    background-color:#d4a373;
-     color: #5a5148;
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
-     margin: 0;
-     padding: 0;
+.yhteystiedot-body {
+    background-color:#dfcbb8;
+    color: #5a5148;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
+/*Äyhteystiedot-sivun näyttökoot*/
+/*mobiilikoko*/
+@media (max-width: 600px) {
+    .yhteystiedot-body {
+        background-color: #d4a373;
+        padding: 20px;
+    }
+
+    .yhteystiedot-header {
+        font-size: 24px;
+        padding: 15px;
+    }
+
+    header nav a {
+        font-size: 14px;
+        margin: 0 10px;
+    }
+
+    .container {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .contact-info,
+    .contact-form {
+        max-width: 100%;
+        padding: 15px;
+    }
+
+    p.call-to-action {
+        font-size: 18px;
+    }
+
+    input,
+    textarea {
+        padding: 8px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    footer {
+        padding: 15px;
+    }
+}
+
+/* Tablettikoko (min-width: 600px) ja (max-width: 1199px) */
+@media (min-width: 600px) and (max-width: 1199px) {
+    .yhteystiedot-body {
+        background-color: #d4a373;
+        padding: 30px;
+    }
+
+    .yhteystiedot-header {
+        font-size: 28px;
+        padding: 20px;
+    }
+
+    header nav a {
+        font-size: 16px;
+        margin: 0 12px;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .contact-info,
+    .contact-form {
+        max-width: 450px;
+        padding: 20px;
+    }
+
+    p.call-to-action {
+        font-size: 20px;
+    }
+}
+
+/* Suuri näyttö (min-width: 1200px) */
+@media (min-width: 1200px) {
+    .yhteystiedot-body {
+        background-color: #d4a373;
+        padding: 50px;
+    }
+
+    .yhteystiedot-header {
+        font-size: 32px;
+        padding: 25px;
+    }
+
+    header nav a {
+        font-size: 18px;
+        margin: 0 15px;
+    }
+
+    .container {
+        width: 80%;
+    }
+
+    .contact-info, .contact-form {
+        max-width: 500px;
+        padding: 25px;
+    }
+
+    p.call-to-action {
+        font-size: 22px;
+    }
+}
+
 .yhteystiedot-header {
     background: #d4c6b6;
     color: #5a5148;
     padding: 20px 0;
     text-align: center;
 }
+
 header nav a {
     text-decoration: none;
     color: #5a5148;
     margin: 0 15px;
     font-size: 18px;
 }
+
 hr {
     border: 0;
     height: 1px;
@@ -348,31 +496,38 @@ hr {
     margin: 20px auto;
     width: 80%;
 }
+
 .container {
     width: 80%;
     margin: auto;
     padding: 40px 0;
     text-align: center;
 }
-.contact-info, .contact-form {
-    background:#eedac7 ;
+
+.contact-info,
+.contact-form {
+    background: #eedac7;
     padding: 25px;
     margin: 20px auto;
     border-radius: 15px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     max-width: 500px;
 }
+
 p.call-to-action {
     font-size: 20px;
     font-weight: bold;
 }
-input, textarea {
+
+input,
+textarea {
     width: 100%;
     padding: 10px;
     margin-top: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+
 button {
     background-color: #a8907c;
     color: white;
@@ -382,10 +537,9 @@ button {
     font-size: 16px;
     cursor: pointer;
 }
+
 footer {
     text-align: center;
     padding: 20px;
     background: #d4c6b6;
 }
-
-
