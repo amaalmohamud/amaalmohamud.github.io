@@ -198,7 +198,7 @@ footer a:hover {
 
 /*palvelu-sivun tyylit*/
 .palvelusivu-body {
-    background-color: #f4e8da;
+    background-color: #e6c3a6;
     color: #5a5148;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     height: 900px;
@@ -209,72 +209,54 @@ footer a:hover {
 /*mobiilikoko*/
 @media (max-width: 600px){
 .palvelusivu-body{
-        background-image: url();
-        background-size: cover;
-        height: 400px;
+    background-color: #e6c3a6;
+    padding: 20px;
     }
-    nav a{
-        font-size: 15px;
-        width: 100px;
-        height: 20px;
-        padding: 7px;
-        margin: 3px 5px;
-    }
-    .palvelut-header{
+
+ .palvelut-header{
         font-size: 30px;
         padding: 20px;
     }
+.card{
+    flex-direction: column;
+    text-align: center;
+}
+.card img{
+    margin-bottom: 10px;
+    margin-right: 0;
+}
 }
 /*tablettikoko*/
-@media screen and(min-width: 600px){
+@media screen and (min-width: 600px) {
     .palvelusivu-body{
-        background-image: url(kuvat/);
-        background-size: cover;
-        height:600px;
-    }
-    nav a{
-        font-size: 15px;
-        width: 100px;
-        height: 20px;
-        padding: 7px;
-        margin: 3px 5px;
+        background-color: #e6c3a6;
+        padding: 30px;
     }
     .palvelut-header{
-        font-size: 40px;
-        padding-top: 100px;
-        padding-bottom: 20px;
-        padding-left: 50px;
-        padding-right: 50px;
+        font-size: 36px;
+        padding: 40px;
     }
+.container{
+    width: 90%;
+}
 }
 /*suuri näyttö*/
 @media screen and (min-width:1200px){
  .palvelusivu-body{
-    background-image: url();
-    background-size: cover;
-    height: 950px;
+    background-color:#e6c3a6;
+    padding: 50px;
  }  
- nav a{
-    font-size: 20px;
-    width: 130px;
-    height: 25px;
-     padding: 10px;
-     margin: 5px 20px;
- } 
  .palvelut-header{
-    font-size: 65px;
-    padding-top: 150px;
-    padding-bottom: 20px;
-    padding-left: 200px;
-    padding-right: 200px;
+    font-size: 50px;
+    padding: 50px;
  }
-}
-
 .palvelut-header {
     text-align: center;
     padding: 50px 20px;
-    background: #d4c6b6;
-
+}
+.container{
+    width: 80%;
+}
 }
 header nav {
     text-align: center;
@@ -324,7 +306,7 @@ header nav a:hover {
 }
 .button {
     display: inline-block;
-    background-color: #a8907c;
+    background-color:#a8907c;
     color: white;
     padding: 10px 20px;
     margin-top: 10px;
@@ -342,7 +324,7 @@ footer {
 }
 /*yhteystiedot-sivun tyyli*/
 .yhteystiedot-body{
-    background-color:bisque;
+    background-color:#d4a373;
      color: #5a5148;
      font-family: Verdana, Geneva, Tahoma, sans-serif;
      margin: 0;
@@ -374,7 +356,7 @@ hr {
     text-align: center;
 }
 .contact-info, .contact-form {
-    background: #f7f3ee;
+    background:#eedac7 ;
     padding: 25px;
     margin: 20px auto;
     border-radius: 15px;
