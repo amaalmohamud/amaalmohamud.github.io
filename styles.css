@@ -18,7 +18,73 @@ body {
     margin: 0;
     padding: 0;
 }
-    /* päävalikko*/
+/* Etusivun näyttökoot */
+/*mobiilikoko*/
+@media(max-width:600px){
+    .etusivu-body{
+        background-image: url(kuvat/taustakuva1.jpg);
+        background-size: cover;
+        height: 400px;
+    }
+    nav a{
+        font-size: 15px;
+        width: 100px;
+        height: 20px;
+        padding: 7px;
+        margin: 3px 5px;
+    }
+    .slogan{
+        font-size: 30px;
+        padding: 20px;
+    }
+}
+/*tablettikoko*/
+@media screen and(min-width: 600px){
+    .etusivu-body{
+        background-image: url(kuvat/taustakuva1.jpg);
+        background-size: cover;
+        height:600px;
+    }
+    nav a{
+        font-size: 15px;
+        width: 100px;
+        height: 20px;
+        padding: 7px;
+        margin: 3px 5px;
+    }
+    .slogan{
+        font-size: 40px;
+        padding-top: 100px;
+        padding-bottom: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+/*suuri näyttö*/
+@media screen and (min-width:1200px){
+ .etusivu-body{
+    background-image: url(kuvat/taustakuva1.jpg);
+    background-size: cover;
+    height: 950px;
+ }  
+ nav a{
+    font-size: 20px;
+    width: 130px;
+    height: 25px;
+     padding: 10px;
+     margin: 5px 20px;
+ } 
+ .slogan{
+    font-size: 65px;
+    padding-top: 150px;
+    padding-bottom: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+ }
+}
+
+    
+/* päävalikko*/
 nav {
     background-color: #d4a373; 
     padding: 15px;
@@ -138,7 +204,22 @@ footer a:hover {
     height: 900px;
     margin: 0;
     padding: 0;
-    
+}
+/* Palvelusivun näyttökoot */
+@media (max-width: 600px) {
+    .palvelusivu-body {
+        background-image: url(kuvat/tausta-mobiili.jpg);
+    }
+}
+@media (min-width: 600px) {
+    .palvelusivu-body {
+        background-image: url(kuvat/tausta-mobiili.jpg);
+    }
+}
+@media (min-width: 1200px) {
+    .palvelusivu-body {
+        background-image: url(kuvat/tausta.jpg);
+    }
 }
 .palvelut-header {
     text-align: center;
