@@ -1,4 +1,3 @@
-
 /* Yleiset tyylit */
 body {
     font-family: 'Verdana', 'Geneva', 'Tahoma', sans-serif;
@@ -26,9 +25,6 @@ body {
         background-size: cover;
         height: 400px;
     }
-    h2{
-        font-size: 20px; 
-    }
     nav a{
         font-size: 15px;
         width: 100px;
@@ -47,9 +43,6 @@ body {
         background-image: url(kuvat/taustakuva1.jpg);
         background-size: cover;
         height:600px;
-    }
-    h2{
-        font-size: 25px; 
     }
     nav a{
         font-size: 15px;
@@ -73,9 +66,6 @@ body {
     background-size: cover;
     height: 950px;
  }  
- h2{
-    font-size: 30px; 
-}
  nav a{
     font-size: 20px;
     width: 130px;
@@ -91,6 +81,15 @@ body {
     padding-right: 200px;
  }
 }
+
+    
+/* päävalikko*/
+nav {
+    background-color: transparent; 
+    padding: 15px;
+    text-align: center;
+}
+
 /* Päävalikko */
 nav a {
     background: rgba(212, 198, 182, 0.9); 
@@ -137,9 +136,7 @@ header {
     text-align: center;
     padding: 20px;
 }
-h2{
-    font-size: 20px; 
-}
+
 .esittely {
     font-style: italic;
     font-size: 20px;
@@ -214,16 +211,10 @@ footer a:hover {
     background-color: #e6c3a6;
     padding: 20px;
     }
+
  .palvelut-header{
         font-size: 30px;
         padding: 20px;
-    }
-    nav a { 
-        font-size: 15px;
-        width: 100px;
-        height: 20px;
-        padding: 7px;
-        margin:3px 5px;
     }
 .card{
     flex-direction: column;
@@ -244,17 +235,9 @@ footer a:hover {
         font-size: 36px;
         padding: 40px;
     }
-    nav a { 
-        font-size: 15px;
-        width: 100px;
-        height: 20px;
-        padding: 7px;
-        margin:3px 5px;
-    }
-    .card img{
-        margin-bottom: 20px;
-        margin-right: 0;
-    }
+.container{
+    width: 90%;
+}
 }
 /*suuri näyttö*/
 @media screen and (min-width:1200px){
@@ -262,23 +245,21 @@ footer a:hover {
     background-color:#e6c3a6;
     padding: 50px;
  }  
+ .palvelut-header{
+    font-size: 50px;
+    padding: 50px;
+ }
 .palvelut-header {
     text-align: center;
     padding: 50px 20px;
 }
-.card img{
-    margin-bottom: 200px;
-    margin-right: 0;
+.container{
+    width: 80%;
 }
 }
 header nav {
     text-align: center;
     margin-top: 10px;
-    font-size: 20px;
-    width: 130px;
-    height: 25px;
-    padding: 10px;
-    margin:5px 20px
 }
 header nav a {
     text-decoration: none;
@@ -348,76 +329,6 @@ footer {
      margin: 0;
      padding: 0;
 }
-/*yhteystiedon sivun näyttökoot*/
-/*mobiilikoko*/
-@media (max-width: 600px) {
-    .container {
-        width: 100%;
-        padding: 20px;
-    }
-
-    .contact-info, .contact-form {
-        max-width: 100%;
-        padding: 15px;
-    }
-
-    header nav a {
-    font-size: 15px;
-    width: 100px;
-    height: 20px;
-    padding: 7px;
-    margin:3px 5px;
-    }
-
-    p.call-to-action {
-        font-size: 18px;
-    }
-
-    button {
-        padding: 8px 16px;
-        font-size: 14px;
-    }
-
-    footer {
-        padding: 15px;
-    }
-}
-/*tablettikoko*/
-@media (min-width: 600px) and (max-width: 1199px) {
-    .container {
-        width: 90%;
-    }
-
-    .contact-info, .contact-form {
-        max-width: 450px;
-    }
-
-    header nav a {
-        font-size: 15px;
-        width: 100px;
-        height: 20px;
-        padding: 7px;
-        margin:3px 5px;
-    }
-}
-/*suurinäyttö*/
-@media (min-width: 1200px) {
-    .container {
-        width: 80%;
-    }
-
-    .contact-info, .contact-form {
-        max-width: 500px;
-    }
-
-    header nav a {
-       font-size: 20px;
-        width: 130px;
-        height: 25px;
-        padding: 10px;
-        margin:5px 20px;
-    }
-}
 .yhteystiedot-header {
     background: #d4c6b6;
     color: #5a5148;
@@ -476,3 +387,5 @@ footer {
     padding: 20px;
     background: #d4c6b6;
 }
+
+
