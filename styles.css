@@ -82,15 +82,6 @@ body {
     padding-right: 200px;
  }
 }
-
-    
-/* päävalikko*/
-nav {
-    background-color: transparent; 
-    padding: 15px;
-    text-align: center;
-}
-
 /* Päävalikko */
 nav a {
     background: rgba(212, 198, 182, 0.9); 
@@ -212,7 +203,6 @@ footer a:hover {
     background-color: #e6c3a6;
     padding: 20px;
     }
-
  .palvelut-header{
         font-size: 30px;
         padding: 20px;
@@ -236,9 +226,10 @@ footer a:hover {
         font-size: 36px;
         padding: 40px;
     }
-.container{
-    width: 90%;
-}
+    .card img{
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
 }
 /*suuri näyttö*/
 @media screen and (min-width:1200px){
@@ -254,8 +245,9 @@ footer a:hover {
     text-align: center;
     padding: 50px 20px;
 }
-.container{
-    width: 80%;
+.card img{
+    margin-bottom: 200px;
+    margin-right: 0;
 }
 }
 header nav {
@@ -329,6 +321,65 @@ footer {
      font-family: Verdana, Geneva, Tahoma, sans-serif;
      margin: 0;
      padding: 0;
+}
+/*yhteystiedon sivun näyttökoot*/
+/*mobiilikoko*/
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .contact-info, .contact-form {
+        max-width: 100%;
+        padding: 15px;
+    }
+
+    header nav a {
+        font-size: 14px;
+        margin: 0 10px;
+    }
+
+    p.call-to-action {
+        font-size: 18px;
+    }
+
+    button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    footer {
+        padding: 15px;
+    }
+}
+/*tablettikoko*/
+@media (min-width: 600px) and (max-width: 1199px) {
+    .container {
+        width: 90%;
+    }
+
+    .contact-info, .contact-form {
+        max-width: 450px;
+    }
+
+    header nav a {
+        font-size: 16px;
+    }
+}
+/*suurinäyttö*/
+@media (min-width: 1200px) {
+    .container {
+        width: 80%;
+    }
+
+    .contact-info, .contact-form {
+        max-width: 500px;
+    }
+
+    header nav a {
+        font-size: 18px;
+    }
 }
 .yhteystiedot-header {
     background: #d4c6b6;
