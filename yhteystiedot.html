@@ -1,19 +1,118 @@
 <!DOCTYPE html>
-<html>
+<html lang="fi">
 <head>
-    <title>Täältä löydät suoraan meille ja </title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LuxYoga - Yhteystiedot</title>
+  <style>
+      body {
+          background-color: #e8dfd0;
+          color: #5a5148;
+          font-family: 'Playfair Display', serif;
+          margin: 0;
+          padding: 0;
+      }
+      header {
+          background: #d4c6b6;
+          color: #5a5148;
+          padding: 20px 0;
+          text-align: center;
+      }
+      header nav a {
+          text-decoration: none;
+          color: #5a5148;
+          margin: 0 15px;
+          font-size: 18px;
+      }
+      hr {
+          border: 0;
+          height: 1px;
+          background: #5a5148;
+          margin: 20px auto;
+          width: 80%;
+      }
+      .container {
+          width: 80%;
+          margin: auto;
+          padding: 40px 0;
+          text-align: center;
+      }
+      .contact-info, .contact-form {
+          background: #f7f3ee;
+          padding: 25px;
+          margin: 20px auto;
+          border-radius: 15px;
+          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+          max-width: 500px;
+      }
+      p.call-to-action {
+          font-size: 20px;
+          font-weight: bold;
+      }
+      input, textarea {
+          width: 100%;
+          padding: 10px;
+          margin-top: 10px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+      }
+      button {
+          background-color: #a8907c;
+          color: white;
+          padding: 10px 20px;
+          border: none;
+          border-radius: 5px;
+          font-size: 16px;
+          cursor: pointer;
+      }
+      footer {
+          text-align: center;
+          padding: 20px;
+          background: #d4c6b6;
+      }
+  </style>
 </head>
 <body>
-    <div class="navbar">
-        <a href="index.html">Etusivu</a>
-        <a href="palvelut.html">Palvelut</a>
-        <a href="yhteystiedot.html" class="active">Yhteystiedot</a>
-    </div>
-    <div class="container">
-        <h1>Ota yhteyttä</h1>
-        <p>Sähköposti: info@luxyoga.fi</p>
-        <p>Puhelin: +358 123 456 789</p>
-    </div>
+  <header>
+      <nav>
+          <a href="index.html">Etusivu</a>
+          <a href="palvelut.html">Palvelut</a>
+      </nav>
+      <hr>
+      <h1>Yhteystiedot</h1>
+  </header>
+
+
+  <div class="container">
+      <p class="call-to-action"><strong>Varaa aika soittamalla numeroon:</strong> 040 444 4444</p>
+     
+      <div class="contact-info">
+          <h2>Ota yhteyttä</h2>
+          <p><strong>Email:</strong> info@luxyoga.fi</p>
+          <p><strong>Puhelin:</strong> 040 444 4444</p>
+          <p><strong>Osoite:</strong> Joogakatu 1, 00100 Helsinki</p>
+      </div>
+     
+      <div class="contact-form">
+          <h2>Yhteydenottolomake</h2>
+          <form action="#" method="post">
+              <label for="name">Nimi:</label>
+              <input type="text" id="name" name="name" required>
+             
+              <label for="email">Sähköposti:</label>
+              <input type="email" id="email" name="email" required>
+             
+              <label for="message">Viesti:</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+             
+              <button type="submit">Lähetä</button>
+          </form>
+      </div>
+  </div>
+
+
+  <footer>
+      <p>Email: info@luxyoga.fi | Puhelin: 040 444 4444</p>
+  </footer>
 </body>
 </html>
