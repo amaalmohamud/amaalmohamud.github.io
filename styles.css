@@ -132,7 +132,7 @@ footer a:hover {
 
 /*palvelu-sivun tyylit*/
 .palvelusivu-body {
-    background-color: #e8dfd0;
+    background-color: #f4e8da;
     color: #5a5148;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     height: 900px;
@@ -166,7 +166,7 @@ header nav a:hover {
     text-align: center;
 }
 .card {
-    background: #f7f3ee;
+    background-color: #e8dfd0;
     padding: 25px;
     margin: 20px auto;
     border-radius: 15px;
@@ -193,9 +193,9 @@ footer {
 }
 /*yhteystiedot-sivun tyyli*/
 .yhteystiedot-body{
-    background-color: #e8dfd0;
+    background-color:bisque;
      color: #5a5148;
-     font-family: 'Playfair Display', serif;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
      margin: 0;
      padding: 0;
 }
